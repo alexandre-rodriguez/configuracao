@@ -6,7 +6,7 @@ Dicas de configuração de ambiente
 ## Tabela de Conteúdo
   * [Java](java.md#java)
     + [Instalação](java.md#instalação)
-    + [Configuração](configuração)
+    + [Configuração](java.md#configuração)
   * [Git](git.md#git)
     + [Instalação](git.md#instalação)
     + [Configuração](git.md#configuração)
