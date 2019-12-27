@@ -22,41 +22,28 @@
    ```
    
 3. Alterar as configurações do eclipse (Window &#10145; Preferences)
-	
-	General &#10145; Editors &#10145; Text Editors &#10145; Spelling
-	
-		Desmarcar `Enable spell checking`
-	
-	General &#10145; Workspace
-	
-		Text File Enconding &#10145; Other: `UTF-8`
-		New Text File Line Delimiter &#10145; Other: `Unix`
-	
-	
-	
-	Validation
-	
-		Marcar `Suspend all validators`
-	
-	
-	
-	Web  &#10145; CSS Files
-	
-		Enconding: `ISO 10646/Unicode(UTF-8)`
-	
-	Web  &#10145; HTML Files
-	
-		Encondig: `ISO 10646/Unicode(UTF-8)`
-	
-	Web  &#10145; JSP Files 
-	
-		Enconding: `ISO 10646/Unicode(UTF-8)`	
-	
-	
-	
-	XML &#10145; XML Files
-	
-		Encondig: `ISO 10646/Unicode(UTF-8)`
+
+   - General &#10145; Editors &#10145; Text Editors &#10145; Spelling
+       - Desmarcar `Enable spell checking`
+ 
+   - General &#10145; Workspace
+       - Text File Enconding &#10145; Other: `UTF-8`
+       - New Text File Line Delimiter &#10145; Other: `Unix`
+   
+   - Validation
+      - Marcar `Suspend all validators`
+   
+   - Web  &#10145; CSS Files
+      - Enconding: `ISO 10646/Unicode(UTF-8)`
+   
+   - Web  &#10145; HTML Files
+      - Encondig: `ISO 10646/Unicode(UTF-8)`
+   
+   - Web  &#10145; JSP Files 
+      - Enconding: `ISO 10646/Unicode(UTF-8)`
+   
+   - XML &#10145; XML Files
+      - Encondig: `ISO 10646/Unicode(UTF-8)`
 
 4. Criar uma **Library** para o **hibernate** (Window &#10145; Preferences &#10145; Java &#10145; Build Path &#10145; User Libraries)
 
