@@ -4,7 +4,7 @@
 2. Descompactar o arquivo no diretório de sua preferência, por exemplo: `~/desenvolvimento/eclipse`
 ### Configuração
 1. Configurar o java no arquivo `~/desenvolvimento/eclipse/eclipse-jee-2019-12-R/eclipse.ini`
-   Incluir as linhas abaixo. (**Obs.:** a inclusão só é necessária, se o java não foi configurado conforme [configuração do java](java.md#configura--o))
+   Incluir as linhas abaixo. (**Obs.:** a inclusão só é necessária, se o java não foi configurado conforme [configuração do java](java.md#configuração))
    ```shell
    -vm
    <diretorio-instalacao-java>/bin/java

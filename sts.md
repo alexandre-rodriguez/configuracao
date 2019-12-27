@@ -4,7 +4,7 @@
 2. Descompactar o arquivo no diretório de sua preferência, por exemplo: `~/desenvolvimento/sts`
 ### Configuração
 1. Configurar o java no arquivo `~/desenvolvimento/sts/sts-4.5.0/SpringToolSuite4.ini`
-   Incluir as linhas abaixo. (**Obs.:** a inclusão só é necessária, se o java não foi configurado conforme [configuração do java](java.md#configura--o))
+   Incluir as linhas abaixo. (**Obs.:** a inclusão só é necessária, se o java não foi configurado conforme [configuração do java](java.md#configuração))
    
    ```shell
    -vm
