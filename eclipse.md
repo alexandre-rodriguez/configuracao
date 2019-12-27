@@ -25,7 +25,7 @@
 
    - General &#10145; Editors &#10145; Text Editors &#10145; Spelling
        - Desmarcar `Enable spell checking`
- 
+
    - General &#10145; Workspace
        - Text File Enconding &#10145; Other: `UTF-8`
        - New Text File Line Delimiter &#10145; Other: `Unix`
@@ -45,17 +45,53 @@
    - XML &#10145; XML Files
       - Encondig: `ISO 10646/Unicode(UTF-8)`
 
-4. Criar uma **Library** para o **hibernate** (Window &#10145; Preferences &#10145; Java &#10145; Build Path &#10145; User Libraries)
+4. Criar uma **User Library** para o **Hibernate**
 
-   ```java
-   //TODO
-   ```
+   **Obs.:** Não será necessário quando utilizamos o maven 
 
-5. Criar um **Driver Definitions** para o **MySQL** (Window &#10145; Preferences &#10145; Data Management &#10145; Connectivity &#10145; Driver Definitions)
+   - Fazer download do [hibernate](https://hibernate.org/orm/releases/5.1/) (versão utilizada: **hibernate-release-5.1.17.Final**)
 
-   ```java
-   //TODO
-   ```
+   - Descompactar o arquivo no diretório de sua preferência, por exemplo: `~/desenvolvimento/libs`
+
+   - No Eclipse, criar a User Library  (Window &#10145; Preferences &#10145; Java &#10145; Build Path &#10145; User Library) 
+
+     - Clicar em **New...**
+
+     - Definir um User library name: `hibernate-release-5.1.17.Final`
+
+     - Clicar em **OK**
+
+     - Clicar em **Add External JARs...**
+
+     - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/jpa` e selecionar o arquivo `hibernate-entitymanager-5.1.17.Final.jar`
+
+     - Clicar em **Add External JARs...**
+
+     - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/required` e selecionar todos os arquivos
+
+       ![configuracao-hibernate-eclipse](/home/alexandre/Documentos/configuracao/configuracao-hibernate-eclipse.png)
+
+5. Criar uma **Driver Definition** para o **MySQL** 
+
+   **Obs.:** Não será necessário quando utilizamos o maven 
+
+   - Fazer download do [MySQL Connector](https://dev.mysql.com/downloads/connector/j/5.1.html) (versão utilizada: **mysql-connector-java-5.1.48, Plataform Independent**)
+
+   - Descompactar o arquivo no diretório de sua preferência, por exemplo: `~/desenvolvimento/libs`
+
+   - No Eclipse, criar a Driver Definition (Window &#10145; Preferences &#10145; Data Management &#10145; Connectivity &#10145; Driver Definitions)
+
+     - Clicar em **Add...**
+- Filtrar por Vendor: `MySQL`
+     - Selecionar `MySQL JDBC Driver - versão 5.1` em **Available driver templates**
+- Clicar na aba **JAR List**
+     - Remover os jars listados em **Driver files**
+- Clicar em **Add JAR/Zip...**
+     - Navegar até `~/desenvolvimento/libs/mysql-connector-java-5.1.48`e selecionar o arquivo `mysql-connector-java-5.1.48-bin.jar` 
+- Clicar em **OK**
+     - Clicar em **Apply and Close**
+
+
 
 
 
