@@ -55,21 +55,21 @@
 
    - No Eclipse, criar a User Library  (Window &#10145; Preferences &#10145; Java &#10145; Build Path &#10145; User Library) 
 
-     - Clicar em **New...**
+      - Clicar em **New...**
 
-     - Definir um User library name: `hibernate-release-5.1.17.Final`
+      - Definir um User library name: `hibernate-release-5.1.17.Final`
 
-     - Clicar em **OK**
+      - Clicar em **OK**
 
-     - Clicar em **Add External JARs...**
+      - Clicar em **Add External JARs...**
 
-     - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/jpa` e selecionar o arquivo `hibernate-entitymanager-5.1.17.Final.jar`
+      - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/jpa` e selecionar o arquivo `hibernate-entitymanager-5.1.17.Final.jar`
 
-     - Clicar em **Add External JARs...**
+      - Clicar em **Add External JARs...**
 
-     - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/required` e selecionar todos os arquivos
+      - Navegar até `~/desenvolvimento/libs/hibernate-release-5.1.17.Final/lib/required` e selecionar todos os arquivos
 
-       ![configuracao-hibernate-eclipse](/home/alexandre/Documentos/configuracao/configuracao-hibernate-eclipse.png)
+      ![Tela com os Jars do Hibernate incluídos](configuracao-hibernate-eclipse.png "Tela com os Jars do Hibernate incluídos")
 
 5. Criar uma **Driver Definition** para o **MySQL** 
 
@@ -81,15 +81,23 @@
 
    - No Eclipse, criar a Driver Definition (Window &#10145; Preferences &#10145; Data Management &#10145; Connectivity &#10145; Driver Definitions)
 
-     - Clicar em **Add...**
-- Filtrar por Vendor: `MySQL`
-     - Selecionar `MySQL JDBC Driver - versão 5.1` em **Available driver templates**
-- Clicar na aba **JAR List**
-     - Remover os jars listados em **Driver files**
-- Clicar em **Add JAR/Zip...**
-     - Navegar até `~/desenvolvimento/libs/mysql-connector-java-5.1.48`e selecionar o arquivo `mysql-connector-java-5.1.48-bin.jar` 
-- Clicar em **OK**
-     - Clicar em **Apply and Close**
+      - Clicar em **Add...**
+
+      - Filtrar por Vendor: `MySQL`
+
+      - Selecionar `MySQL JDBC Driver - versão 5.1` em **Available driver templates**
+
+      - Clicar na aba **JAR List**
+
+      - Remover os jars listados em **Driver files**
+
+      - Clicar em **Add JAR/Zip...**
+
+      - Navegar até `~/desenvolvimento/libs/mysql-connector-java-5.1.48`e selecionar o arquivo `mysql-connector-java-5.1.48-bin.jar` 
+
+      - Clicar em **OK**
+
+      - Clicar em **Apply and Close**
 
 
 
